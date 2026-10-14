@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lernquiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Lernquiz</h1>
+
+        <p id="question">Frage wird geladen...</p>
+
+        <p id="hint"></p>
+
+        <textarea
+            id="answer"
+            rows="5"
+            cols="50"
+            placeholder="Deine Antwort">
+        </textarea>
+
+        <button id="submit-btn">Prüfen</button>
+
+	    <button id="next-btn">Weiter</button>
+
+        <button id="hint-btn">Hinweis</button>
+
+        <p id="result"></p>
+
+        <p id="score">Punkte: 0</p>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
